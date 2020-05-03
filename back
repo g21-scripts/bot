@@ -1,0 +1,17 @@
+client.on("message", (message) => {
+  if(message.content.startsWith("-g comandos")) {
+    message.channel.send("```----------  Hola soy el esclavo Ruso de Guille, en fin aquí estan los comandos para hacerme trabajar ----------```");
+    message.channel.send("```-g pinturillo```");
+    message.channel.send("```-g ivao```");
+    message.channel.send("```-g g```");
+    message.channel.send("```-g yt```");
+    message.channel.send("```-g ban```");
+    message.channel.send("```-g kick```");
+    message.channel.send("```-g warn```");
+    message.channel.send("```-g monoloko```");
+    message.channel.send("```-g ayuda```");
+    message.channel.send("```-g borrar```");
+    message.channel.send("```-g cartas```");
+  }
+
+});
